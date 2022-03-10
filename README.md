@@ -12,7 +12,7 @@ This is a fork of [OpenEpi](https://www.openepi.com/Menu/OE_Menu.htm) to fix som
 
 Open `Index.htm` in any browser with JS support.
 
-# Original Text
+## Original Text
 
 Open Source Epidemiologic Statistics for Public Health
 
@@ -20,6 +20,6 @@ OpenEpi provides statistics for counts and measurements in descriptive and analy
 
 See http://www.openepi.com for full details.
 
-# License
+## License
 
 MIT, same as the original (see [here](https://www.openepi.com/BriefDoc/Licensing.htm))
