@@ -1,10 +1,10 @@
-# epitofu
+# EpiTofu
 
 This is a fork of [OpenEpi](https://www.openepi.com/Menu/OE_Menu.htm) to fix some errores I in Linux and modernize the look-and-feels.
 
 ## Plan
 
-- [ ] Fix case sensitivity errors.
+- [ ] Fix case-sensitivity errors
 - [ ] Modernizing look-and-feels
 - [x] Format codebase with Prettier
 
