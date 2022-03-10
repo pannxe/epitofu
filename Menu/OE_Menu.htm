@@ -4,7 +4,7 @@
 <title>OpenEpi Menu</title>
 <META HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=UTF-8">
 <META name="viewport" content="width=800, initial-scale=1, maximum-scale=2">
-<link rel="styleSheet" href="../CSS/dtree.css" type="text/css" >
+<link rel="styleSheet" href="../css/dtree.css" type="text/css" >
 <script src="../js/IncludeFiles.js" type=text/JavaScript></script>
 <script>
 function currConfig()
@@ -30,8 +30,6 @@ function currConfig()
 <body onLoad="writeIntro();">
  <noscript><h2>OpenEpi requires Javascript--not available or turned off in this browser.</h2></noscript>
 
-<!--<div id="menuDiv" name="menuDiv" style="float:left;width:240;" class="dtree"> -->
-<!--<div id="menuDiv" name="menuDiv" style="position:absolute;left:0;top:0; width:20%;" class="dtree">   -->
 <div id="menuDiv" style="float:left;top:0;">
 <script type="text/javascript" >
    //Writes menu
@@ -43,30 +41,6 @@ function currConfig()
 <SCRIPT TYPE ="text/javascript">
 
 var headtitle="Open Source Epidemiologic Statistics for Public Health";
-/*
-//This section produces an error in Chrome 24, but not in Chrome 23.
-//var modDate = new Date(document.lastModified);
-function dateLastModified() {
-//var out = document.getElementById('lastModified');
-var dlm = new Date();
-if (dlm.toLocaleDateString)
-  {
-    dlm= dlm.toLocaleDateString(document.lastModified);
-  }
-else
-  {
-    dlm= document.lastModified;
-  }
-return dlm;
-}
-
-
-var modDate = dateLastModified();
-if (modDate == null)
-   {modDate="20012/11/01" ;}
-   //NOTE: THIS DATE IS TO  BE INSERTED MANUALLY TO SATISFY BROWSERS that do not produce
-   //it automatically, but it appears that they may now do so.
- */
 
 var modDate="2013/04/06"
 function fixDate(theDate)
@@ -127,7 +101,6 @@ heading+= updated+" "+ modDate+ "&nbsp;</strong>"+'<span style="width:100%;font-
 heading +='</td></tr> </table>';
 
 var intro = new Array();
-
 
 intro[0]="<p>OpenEpi provides statistics for counts and measurements in descriptive and analytic studies, "+
 "stratified analysis with exact confidence limits, matched pair and person-time analysis, sample size and power calculations, random numbers, "+
